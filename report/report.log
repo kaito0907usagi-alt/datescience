@@ -1,0 +1,3118 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.14)  9 DEC 2025 17:15
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/oosugakaito/program/2025/datescience/report/report.tex
+(/Users/oosugakaito/program/2025/datescience/report/report.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/platex/jsclasses/jsarticle.cls
+
+/usr/local/texlive/2025/texmf-dist/tex/platex/jsclasses/jsarticle.cls:14: LaTeX Error: This file needs format `pLaTeX2e'
+               but this is `LaTeX2e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \NeedsTeXFormat{pLaTeX2e}
+                              
+The current input file will not be processed further,
+because it was written for some other flavor of TeX.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 106.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2025/09/29 v5.0n Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen150
+\ar@mcellbox=\box53
+\extrarowheight=\dimen151
+\NC@list=\toks18
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box54
+)
+\TX@col@width=\dimen152
+\TX@old@table=\dimen153
+\TX@old@col=\dimen154
+\TX@target=\dimen155
+\TX@delta=\dimen156
+\TX@cols=\count275
+\TX@ftn=\toks19
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen157
+\lightrulewidth=\dimen158
+\cmidrulewidth=\dimen159
+\belowrulesep=\dimen160
+\belowbottomsep=\dimen161
+\aboverulesep=\dimen162
+\abovetopsep=\dimen163
+\cmidrulesep=\dimen164
+\cmidrulekern=\dimen165
+\defaultaddspace=\dimen166
+\@cmidla=\count276
+\@cmidlb=\count277
+\@aboverulesep=\dimen167
+\@belowrulesep=\dimen168
+\@thisruleclass=\count278
+\@lastruleclass=\count279
+\@thisrulewidth=\dimen169
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: dvipdfmx.def on input line 274.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count280
+\lst@gtempboxa=\box55
+\lst@token=\toks20
+\lst@length=\count281
+\lst@currlwidth=\dimen170
+\lst@column=\count282
+\lst@pos=\count283
+\lst@lostspace=\dimen171
+\lst@width=\dimen172
+\lst@newlines=\count284
+\lst@lineno=\count285
+\abovecaptionskip=\skip51
+\belowcaptionskip=\skip52
+\lst@maxwidth=\dimen173
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count286
+\lst@skipnumbers=\count287
+\lst@framebox=\box56
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count288
+)
+No file report.aux.
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:30: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \begin{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\c@lstlisting=\count289
+/Users/oosugakaito/program/2025/datescience/report/report.tex:31: Undefined control sequence.
+l.31 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:34: Undefined control sequence.
+l.34 \subsection
+                *{選択した分析手法}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:34: LaTeX Error: Unicode character 選 (U+9078)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \subsection*{選
+                     択した分析手法}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:34: LaTeX Error: Unicode character 択 (U+629E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \subsection*{選択
+                        した分析手法}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:34: LaTeX Error: Unicode character し (U+3057)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \subsection*{選択し
+                           た分析手法}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:34: LaTeX Error: Unicode character た (U+305F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \subsection*{選択した
+                              分析手法}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:34: LaTeX Error: Unicode character 分 (U+5206)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \subsection*{選択した分
+                                 析手法}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:34: LaTeX Error: Unicode character 析 (U+6790)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \subsection*{選択した分析
+                                    手法}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:34: LaTeX Error: Unicode character 手 (U+624B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \subsection*{選択した分析手
+                                       法}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:34: LaTeX Error: Unicode character 法 (U+6CD5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \subsection*{選択した分析手法
+                                          }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:35: LaTeX Error: Unicode character 回 (U+56DE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 {回
+         帰分析}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:35: LaTeX Error: Unicode character 帰 (U+5E30)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 {回帰
+            分析}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:35: LaTeX Error: Unicode character 分 (U+5206)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 {回帰分
+               析}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:35: LaTeX Error: Unicode character 析 (U+6790)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 {回帰分析
+                  }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:37: Undefined control sequence.
+l.37 \subsection
+                *{例題}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:37: LaTeX Error: Unicode character 例 (U+4F8B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \subsection*{例
+                     題}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:37: LaTeX Error: Unicode character 題 (U+984C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \subsection*{例題
+                        }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 年 (U+5E74)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 2024年
+            発売のPlayStation5用フルプライスタイトルのMetacri...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 発 (U+767A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 2024年発
+               売のPlayStation5用フルプライスタイトルのMetacri...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 売 (U+58F2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 2024年発売
+                  のPlayStation5用フルプライスタイトルのMetacri...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 2024年発売の
+                     PlayStation5用フルプライスタイトルのMetacri...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 2024年発売のPlayStation5用
+                                    フルプライスタイトルのMetacri...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character フ (U+30D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 2024年発売のPlayStation5用フ
+                                       ルプライスタイトルのMetacri...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 2024年発売のPlayStation5用フル
+                                          プライスタイトルのMetacri...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character プ (U+30D7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 2024年発売のPlayStation5用フルプ
+                                             ライスタイトルのMetacri...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character ラ (U+30E9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 2024年発売のPlayStation5用フルプラ
+                                                イスタイトルのMetacri...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character イ (U+30A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...年発売のPlayStation5用フルプライ
+                                                  スタイトルのMetacrit...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character ス (U+30B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...発売のPlayStation5用フルプライス
+                                                  タイトルのMetacritic�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character タ (U+30BF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...売のPlayStation5用フルプライスタ
+                                                  イトルのMetacriticに�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character イ (U+30A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...のPlayStation5用フルプライスタイ
+                                                  トルのMetacriticによ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character ト (U+30C8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...PlayStation5用フルプライスタイト
+                                                  ルのMetacriticによる�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...yStation5用フルプライスタイトル
+                                                  のMetacriticによる評�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...ation5用フルプライスタイトルの
+                                                  Metacriticによる評価�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...��プライスタイトルのMetacriticに
+                                                  よる評価と，大手�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character よ (U+3088)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...��ライスタイトルのMetacriticによ
+                                                  る評価と，大手中�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character る (U+308B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...��イスタイトルのMetacriticによる
+                                                  評価と，大手中古�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 評 (U+8A55)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...��スタイトルのMetacriticによる評
+                                                  価と，大手中古販�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 価 (U+4FA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...��タイトルのMetacriticによる評価
+                                                  と，大手中古販売�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character と (U+3068)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...��イトルのMetacriticによる評価と
+                                                  ，大手中古販売会�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...��トルのMetacriticによる評価と，
+                                                  大手中古販売会社�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 大 (U+5927)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...��ルのMetacriticによる評価と，大
+                                                  手中古販売会社の�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 手 (U+624B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...��のMetacriticによる評価と，大手
+                                                  中古販売会社のオ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 中 (U+4E2D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...��Metacriticによる評価と，大手中
+                                                  古販売会社のオン�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 古 (U+53E4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...etacriticによる評価と，大手中古
+                                                  販売会社のオンラ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 販 (U+8CA9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...criticによる評価と，大手中古販
+                                                  売会社のオンライ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 売 (U+58F2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...ticによる評価と，大手中古販売
+                                                  会社のオンライン�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 会 (U+4F1A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...による評価と，大手中古販売会
+                                                  社のオンラインシ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 社 (U+793E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...よる評価と，大手中古販売会社
+                                                  のオンラインショ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...る評価と，大手中古販売会社の
+                                                  オンラインショッ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character オ (U+30AA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...評価と，大手中古販売会社のオ
+                                                  ンラインショップ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character ン (U+30F3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...価と，大手中古販売会社のオン
+                                                  ラインショップ価�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character ラ (U+30E9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...と，大手中古販売会社のオンラ
+                                                  インショップ価格�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character イ (U+30A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...，大手中古販売会社のオンライ
+                                                  ンショップ価格を�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character ン (U+30F3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...大手中古販売会社のオンライン
+                                                  ショップ価格をま�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character シ (U+30B7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...手中古販売会社のオンラインシ
+                                                  ョップ価格をまと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character ョ (U+30E7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...中古販売会社のオンラインショ
+                                                  ップ価格をまとめ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character ッ (U+30C3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...古販売会社のオンラインショッ
+                                                  プ価格をまとめた．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character プ (U+30D7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...販売会社のオンラインショップ
+                                                  価格をまとめた．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 価 (U+4FA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...売会社のオンラインショップ価
+                                                  格をまとめた．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character 格 (U+683C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...会社のオンラインショップ価格
+                                                  をまとめた．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...社のオンラインショップ価格を
+                                                  まとめた．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character ま (U+307E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...のオンラインショップ価格をま
+                                                  とめた．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character と (U+3068)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...オンラインショップ価格をまと
+                                                  めた．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character め (U+3081)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...ンラインショップ価格をまとめ
+                                                  た．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character た (U+305F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...ラインショップ価格をまとめた
+                                                  ．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:38: LaTeX Error: Unicode character ． (U+FF0E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...インショップ価格をまとめた．
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character 下 (U+4E0B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下
+        記データについて回帰分析を行え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character 記 (U+8A18)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下記
+           データについて回帰分析を行え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character デ (U+30C7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下記デ
+              ータについて回帰分析を行え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下記デー
+                 タについて回帰分析を行え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character タ (U+30BF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下記データ
+                    について回帰分析を行え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下記データに
+                       ついて回帰分析を行え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character つ (U+3064)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下記データにつ
+                          いて回帰分析を行え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character い (U+3044)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下記データについ
+                             て回帰分析を行え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character て (U+3066)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下記データについて
+                                回帰分析を行え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character 回 (U+56DE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下記データについて回
+                                   帰分析を行え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character 帰 (U+5E30)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下記データについて回帰
+                                      分析を行え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character 分 (U+5206)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下記データについて回帰分
+                                         析を行え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character 析 (U+6790)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下記データについて回帰分析
+                                            を行え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下記データについて回帰分析を
+                                               行え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character 行 (U+884C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 下記データについて回帰分析を行
+                                                  え．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character え (U+3048)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...データについて回帰分析を行え
+                                                  ．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:39: LaTeX Error: Unicode character ． (U+FF0E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...ータについて回帰分析を行え．
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:41: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.41 \vspace{1zh}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \begin{table}
+                  [ht]\caption{運動前後での脈拍の測定結果}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \begin{table}[ht]\caption
+                              {運動前後での脈拍の測定結果}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: Unicode character 運 (U+904B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \begin{table}[ht]\caption{運
+                                  動前後での脈拍の測定結果}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: Unicode character 動 (U+52D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \begin{table}[ht]\caption{運動
+                                     前後での脈拍の測定結果}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: Unicode character 前 (U+524D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \begin{table}[ht]\caption{運動前
+                                        後での脈拍の測定結果}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: Unicode character 後 (U+5F8C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \begin{table}[ht]\caption{運動前後
+                                           での脈拍の測定結果}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: Unicode character で (U+3067)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \begin{table}[ht]\caption{運動前後で
+                                              の脈拍の測定結果}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \begin{table}[ht]\caption{運動前後での
+                                                 脈拍の測定結果}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: Unicode character 脈 (U+8108)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...n{table}[ht]\caption{運動前後での脈
+                                                  拍の測定結果}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: Unicode character 拍 (U+62CD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...able}[ht]\caption{運動前後での脈拍
+                                                  の測定結果}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...e}[ht]\caption{運動前後での脈拍の
+                                                  測定結果}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: Unicode character 測 (U+6E2C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...ht]\caption{運動前後での脈拍の測
+                                                  定結果}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: Unicode character 定 (U+5B9A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...\caption{運動前後での脈拍の測定
+                                                  結果}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: Unicode character 結 (U+7D50)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...ption{運動前後での脈拍の測定結
+                                                  果}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:42: LaTeX Error: Unicode character 果 (U+679C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...on{運動前後での脈拍の測定結果
+                                                  }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 44.
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:46: LaTeX Error: Unicode character 運 (U+904B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46        & 運
+                 動前 & 運動後 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:46: LaTeX Error: Unicode character 動 (U+52D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46        & 運動
+                    前 & 運動後 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:46: LaTeX Error: Unicode character 前 (U+524D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46        & 運動前
+                        & 運動後 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:46: LaTeX Error: Unicode character 運 (U+904B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46        & 運動前 & 運
+                             動後 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:46: LaTeX Error: Unicode character 動 (U+52D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46        & 運動前 & 運動
+                                後 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:46: LaTeX Error: Unicode character 後 (U+5F8C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46        & 運動前 & 運動後
+                                    \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:47: LaTeX Error: Unicode character 被 (U+88AB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 被
+        験者A & 78 & 82 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:47: LaTeX Error: Unicode character 験 (U+9A13)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 被験
+           者A & 78 & 82 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:47: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 被験者
+              A & 78 & 82 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:48: LaTeX Error: Unicode character 被 (U+88AB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 被
+        験者B & 70 & 71 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:48: LaTeX Error: Unicode character 験 (U+9A13)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 被験
+           者B & 70 & 71 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:48: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 被験者
+              B & 70 & 71 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:49: LaTeX Error: Unicode character 被 (U+88AB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 被
+        験者C & 73 & 74 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:49: LaTeX Error: Unicode character 験 (U+9A13)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 被験
+           者C & 73 & 74 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:49: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 被験者
+              C & 73 & 74 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:50: LaTeX Error: Unicode character 被 (U+88AB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 被
+        験者D & 72 & 76 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:50: LaTeX Error: Unicode character 験 (U+9A13)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 被験
+           者D & 72 & 76 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:50: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 被験者
+              D & 72 & 76 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:51: LaTeX Error: Unicode character 被 (U+88AB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 被
+        験者E & 76 & 74 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:51: LaTeX Error: Unicode character 験 (U+9A13)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 被験
+           者E & 76 & 74 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:51: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 被験者
+              E & 76 & 74 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:52: LaTeX Error: Unicode character 被 (U+88AB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 被
+        験者F & 71 & 73 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:52: LaTeX Error: Unicode character 験 (U+9A13)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 被験
+           者F & 71 & 73 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:52: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 被験者
+              F & 71 & 73 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:53: LaTeX Error: Unicode character 被 (U+88AB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 被
+        験者G & 77 & 82 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:53: LaTeX Error: Unicode character 験 (U+9A13)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 被験
+           者G & 77 & 82 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:53: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 被験者
+              G & 77 & 82 \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:55: LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \end{table}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:57: Undefined control sequence.
+l.57 \subsection
+                *{解答}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:57: LaTeX Error: Unicode character 解 (U+89E3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \subsection*{解
+                     答}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:57: LaTeX Error: Unicode character 答 (U+7B54)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \subsection*{解答
+                        }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:58: LaTeX Error: Unicode character 記 (U+8A18)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 (記
+         載例)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:58: LaTeX Error: Unicode character 載 (U+8F09)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 (記載
+            例)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:58: LaTeX Error: Unicode character 例 (U+4F8B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 (記載例
+               )
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character 帰 (U+5E30)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 帰
+        無仮説 $H_0$ は「運動前後の脈拍は等しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character 無 (U+7121)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 帰無
+           仮説 $H_0$ は「運動前後の脈拍は等しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character 仮 (U+4EEE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 帰無仮
+              説 $H_0$ は「運動前後の脈拍は等しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character 説 (U+8AAC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 帰無仮説
+                  $H_0$ は「運動前後の脈拍は等しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character は (U+306F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 帰無仮説 $H_0$ は
+                           「運動前後の脈拍は等しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character 「 (U+300C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 帰無仮説 $H_0$ は「
+                              運動前後の脈拍は等しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character 運 (U+904B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 帰無仮説 $H_0$ は「運
+                                 動前後の脈拍は等しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character 動 (U+52D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 帰無仮説 $H_0$ は「運動
+                                    前後の脈拍は等しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character 前 (U+524D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 帰無仮説 $H_0$ は「運動前
+                                       後の脈拍は等しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character 後 (U+5F8C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 帰無仮説 $H_0$ は「運動前後
+                                          の脈拍は等しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 帰無仮説 $H_0$ は「運動前後の
+                                             脈拍は等しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character 脈 (U+8108)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 帰無仮説 $H_0$ は「運動前後の脈
+                                                拍は等しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character 拍 (U+62CD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...��仮説 $H_0$ は「運動前後の脈拍
+                                                  は等しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character は (U+306F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...��説 $H_0$ は「運動前後の脈拍は
+                                                  等しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character 等 (U+7B49)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...�� $H_0$ は「運動前後の脈拍は等
+                                                  しい」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character し (U+3057)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...$H_0$ は「運動前後の脈拍は等し
+                                                  い」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character い (U+3044)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...0$ は「運動前後の脈拍は等しい
+                                                  」である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character 」 (U+300D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...は「運動前後の脈拍は等しい」
+                                                  である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character で (U+3067)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...「運動前後の脈拍は等しい」で
+                                                  ある．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character あ (U+3042)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...運動前後の脈拍は等しい」であ
+                                                  る．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character る (U+308B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...動前後の脈拍は等しい」である
+                                                  ．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:59: LaTeX Error: Unicode character ． (U+FF0E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...前後の脈拍は等しい」である．
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character ま (U+307E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ま
+        ず，運動前後の脈拍の差 $d$ を計算する（ここでは...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character ず (U+305A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 まず
+           ，運動前後の脈拍の差 $d$ を計算する（ここでは...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 まず，
+              運動前後の脈拍の差 $d$ を計算する（ここでは...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 運 (U+904B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 まず，運
+                 動前後の脈拍の差 $d$ を計算する（ここでは...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 動 (U+52D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 まず，運動
+                    前後の脈拍の差 $d$ を計算する（ここでは...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 前 (U+524D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 まず，運動前
+                       後の脈拍の差 $d$ を計算する（ここでは...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 後 (U+5F8C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 まず，運動前後
+                          の脈拍の差 $d$ を計算する（ここでは...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 まず，運動前後の
+                             脈拍の差 $d$ を計算する（ここでは...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 脈 (U+8108)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 まず，運動前後の脈
+                                拍の差 $d$ を計算する（ここでは...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 拍 (U+62CD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 まず，運動前後の脈拍
+                                   の差 $d$ を計算する（ここでは...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 まず，運動前後の脈拍の
+                                      差 $d$ を計算する（ここでは...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 差 (U+5DEE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 まず，運動前後の脈拍の差
+                                          $d$ を計算する（ここでは...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 まず，運動前後の脈拍の差 $d$ を
+                                                 計算する（ここでは...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 計 (U+8A08)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...�，運動前後の脈拍の差 $d$ を計
+                                                  算する（ここでは�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 算 (U+7B97)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...�運動前後の脈拍の差 $d$ を計算
+                                                  する（ここでは運�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character す (U+3059)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...�動前後の脈拍の差 $d$ を計算す
+                                                  る（ここでは運動�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character る (U+308B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...�前後の脈拍の差 $d$ を計算する
+                                                  （ここでは運動後�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character （ (U+FF08)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...�後の脈拍の差 $d$ を計算する（
+                                                  ここでは運動後か�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character こ (U+3053)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...�の脈拍の差 $d$ を計算する（こ
+                                                  こでは運動後から�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character こ (U+3053)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...�脈拍の差 $d$ を計算する（ここ
+                                                  では運動後から運�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character で (U+3067)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...�拍の差 $d$ を計算する（ここで
+                                                  は運動後から運動�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character は (U+306F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...�の差 $d$ を計算する（ここでは
+                                                  運動後から運動前�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 運 (U+904B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...�差 $d$ を計算する（ここでは運
+                                                  動後から運動前を�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 動 (U+52D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...� $d$ を計算する（ここでは運動
+                                                  後から運動前を引�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 後 (U+5F8C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...d$ を計算する（ここでは運動後
+                                                  から運動前を引く�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character か (U+304B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...を計算する（ここでは運動後か
+                                                  ら運動前を引く）．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character ら (U+3089)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...計算する（ここでは運動後から
+                                                  運動前を引く）．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 運 (U+904B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...算する（ここでは運動後から運
+                                                  動前を引く）．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 動 (U+52D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...する（ここでは運動後から運動
+                                                  前を引く）．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 前 (U+524D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...る（ここでは運動後から運動前
+                                                  を引く）．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...（ここでは運動後から運動前を
+                                                  引く）．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character 引 (U+5F15)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...ここでは運動後から運動前を引
+                                                  く）．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character く (U+304F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...こでは運動後から運動前を引く
+                                                  ）．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character ） (U+FF09)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...では運動後から運動前を引く）
+                                                  ．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:60: LaTeX Error: Unicode character ． (U+FF0E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...は運動後から運動前を引く）．
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character 差 (U+5DEE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 差
+         $d$ の標本平均は $\bar{d} = 2.14$，標本標準偏差は $s_...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 差 $d$ の
+                標本平均は $\bar{d} = 2.14$，標本標準偏差は $s_...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character 標 (U+6A19)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 差 $d$ の標
+                   本平均は $\bar{d} = 2.14$，標本標準偏差は $s_...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character 本 (U+672C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 差 $d$ の標本
+                      平均は $\bar{d} = 2.14$，標本標準偏差は $s_...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character 平 (U+5E73)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 差 $d$ の標本平
+                         均は $\bar{d} = 2.14$，標本標準偏差は $s_...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character 均 (U+5747)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 差 $d$ の標本平均
+                            は $\bar{d} = 2.14$，標本標準偏差は $s_...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character は (U+306F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 差 $d$ の標本平均は
+                                $\bar{d} = 2.14$，標本標準偏差は $s_...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...$d$ の標本平均は $\bar{d} = 2.14$，
+                                                  標本標準偏差は $s_d...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character 標 (U+6A19)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ... の標本平均は $\bar{d} = 2.14$，標
+                                                  本標準偏差は $s_d=2....
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character 本 (U+672C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�標本平均は $\bar{d} = 2.14$，標本
+                                                  標準偏差は $s_d=2.41\...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character 標 (U+6A19)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�本平均は $\bar{d} = 2.14$，標本標
+                                                  準偏差は $s_d=2.41\cdo...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character 準 (U+6E96)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�平均は $\bar{d} = 2.14$，標本標準
+                                                  偏差は $s_d=2.41\cdots$...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character 偏 (U+504F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�均は $\bar{d} = 2.14$，標本標準偏
+                                                  差は $s_d=2.41\cdots$，...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character 差 (U+5DEE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�は $\bar{d} = 2.14$，標本標準偏差
+                                                  は $s_d=2.41\cdots$，標...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character は (U+306F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...� $\bar{d} = 2.14$，標本標準偏差は
+                                                   $s_d=2.41\cdots$，標本...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�標本標準偏差は $s_d=2.41\cdots$，
+                                                  標本サイズは $n=7$ �...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character 標 (U+6A19)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�本標準偏差は $s_d=2.41\cdots$，標
+                                                  本サイズは $n=7$ で�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character 本 (U+672C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�標準偏差は $s_d=2.41\cdots$，標本
+                                                  サイズは $n=7$ であ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character サ (U+30B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�準偏差は $s_d=2.41\cdots$，標本サ
+                                                  イズは $n=7$ である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character イ (U+30A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�偏差は $s_d=2.41\cdots$，標本サイ
+                                                  ズは $n=7$ である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character ズ (U+30BA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�差は $s_d=2.41\cdots$，標本サイズ
+                                                  は $n=7$ である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character は (U+306F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�は $s_d=2.41\cdots$，標本サイズは
+                                                   $n=7$ である．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character で (U+3067)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...2.41\cdots$，標本サイズは $n=7$ で
+                                                  ある．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character あ (U+3042)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...1\cdots$，標本サイズは $n=7$ であ
+                                                  る．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character る (U+308B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...dots$，標本サイズは $n=7$ である
+                                                  ．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:61: LaTeX Error: Unicode character ． (U+FF0E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...s$，標本サイズは $n=7$ である．
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:62: LaTeX Error: Unicode character 標 (U+6A19)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 標
+        本標準偏差 $s_d$ の自由度は $df=n-1=6$ である．そこ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:62: LaTeX Error: Unicode character 本 (U+672C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 標本
+           標準偏差 $s_d$ の自由度は $df=n-1=6$ である．そこ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:62: LaTeX Error: Unicode character 標 (U+6A19)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 標本標
+              準偏差 $s_d$ の自由度は $df=n-1=6$ である．そこ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:62: LaTeX Error: Unicode character 準 (U+6E96)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 標本標準
+                 偏差 $s_d$ の自由度は $df=n-1=6$ である．そこ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:62: LaTeX Error: Unicode character 偏 (U+504F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 標本標準偏
+                    差 $s_d$ の自由度は $df=n-1=6$ である．そこ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:62: LaTeX Error: Unicode character 差 (U+5DEE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 標本標準偏差
+                        $s_d$ の自由度は $df=n-1=6$ である．そこ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:62: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 標本標準偏差 $s_d$ の
+                                 自由度は $df=n-1=6$ である．そこ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:62: LaTeX Error: Unicode character 自 (U+81EA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 標本標準偏差 $s_d$ の自
+                                    由度は $df=n-1=6$ である．そこ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:62: LaTeX Error: Unicode character 由 (U+7531)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 標本標準偏差 $s_d$ の自由
+                                       度は $df=n-1=6$ である．そこ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:62: LaTeX Error: Unicode character 度 (U+5EA6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 標本標準偏差 $s_d$ の自由度
+                                          は $df=n-1=6$ である．そこ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:62: LaTeX Error: Unicode character は (U+306F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 標本標準偏差 $s_d$ の自由度は
+                                              $df=n-1=6$ である．そこ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:62: LaTeX Error: Unicode character で (U+3067)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...��差 $s_d$ の自由度は $df=n-1=6$ で
+                                                  ある．そこで，統�...
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 2867 strings out of 467748
+ 44168 string characters out of 5426958
+ 639724 words of memory out of 5000000
+ 31594 multiletter control sequences out of 15000+600000
+ 627721 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,6n,65p,255b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+/Users/oosugakaito/program/2025/datescience/report/report.tex:62:  ==> Fatal error occurred, no output PDF file produced!
