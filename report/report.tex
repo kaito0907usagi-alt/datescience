@@ -1,0 +1,109 @@
+\documentclass{jsarticle}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage[dvipdfmx]{xcolor}
+\usepackage{listings} 
+
+\title{2025年度　データサイエンス レポート課題}
+\author{25G1026　大菅　海兎}
+\date{}
+
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    frame={tb},
+    breaklines=true,
+    numbers=left,
+    numberstyle=\color{gray},
+    stepnumber=1,
+    numbersep=5pt,
+    tabsize=4,
+    showspaces=false,
+    xleftmargin=17pt,
+    framexleftmargin=17pt,
+    escapechar=@, 
+}
+\renewcommand{\lstlistingname}{ソースコード}
+
+\begin{document}
+\maketitle
+\pagenumbering{gobble}
+
+\subsection*{選択した分析手法}
+{回帰分析}
+
+\subsection*{例題}
+(記載例)
+ある運動の前後に脈拍を記録したところ，以下のようになった．
+下記データについて有意水準 5\% の検定を行え．
+なお，差 $d$ は正規分布に従うと考えて良いが，母標準偏差 $\sigma_d$ は未知であるとする．
+
+\vspace{1zh}
+\begin{table}[ht]\caption{運動前後での脈拍の測定結果}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+       & 運動前 & 運動後 \\ \hline
+被験者A & 78 & 82 \\ \hline
+被験者B & 70 & 71 \\ \hline
+被験者C & 73 & 74 \\ \hline
+被験者D & 72 & 76 \\ \hline
+被験者E & 76 & 74 \\ \hline
+被験者F & 71 & 73 \\ \hline
+被験者G & 77 & 82 \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection*{解答}
+(記載例)
+帰無仮説 $H_0$ は「運動前後の脈拍は等しい」である．
+まず，運動前後の脈拍の差 $d$ を計算する（ここでは運動後から運動前を引く）．
+差 $d$ の標本平均は $\bar{d} = 2.14$，標本標準偏差は $s_d=2.41\cdots$，標本サイズは $n=7$ である．
+標本標準偏差 $s_d$ の自由度は $df=n-1=6$ である．そこで，統計検定量の Student の $t$ は
+$$
+t = \frac{\bar{d}}{s_d / \sqrt{n}} = \frac{2.14}{2.41\cdots/ \sqrt{7}} = 2.35\cdots
+$$
+となる．$t$ 分布表の $df=6$ と $\alpha=0.05$ から，臨界値 $t_{0.025}(6)=2.447$ を得る．そこで，以下の不等式が成立する．
+$$
+2.35\cdots = |t| < t_{0.025}(6) = 2.447
+$$
+この結果，検定統計量 $t$ は棄却域に入らないことがわかる．
+そこで，「運動前後の脈拍の間に統計的に有意な差は認められなかった」と結論する．
+
+\begin{figure}[h]
+\centering
+\begin{lstlisting}[caption=プログラム例, label=src, language=Python]
+    before = np.array([78, 70, 73, 72, 76, 71, 77])  # 運動前
+    after  = np.array([82, 71, 74, 76, 74, 73, 82])  # 運動後
+    
+    # 差を計算
+    d = after - before
+    mean_d = np.mean(d)          # 平均差
+    std_d = np.std(d, ddof=1)    # 不偏標準偏差
+    n = len(d)                   # サンプルサイズ
+    
+    # @t検定の計算@
+    t_statistic = mean_d / (std_d / np.sqrt(n))  # @t値@
+    
+    # @p値の計算（両側検定）@
+    p_value = 2 * (1 - stats.t.cdf(abs(t_statistic), df=n-1))
+    
+    # 有意水準
+    alpha = 0.05
+    
+    # 結果の表示
+    print(f"@平均差: {mean\_d:.2f}@")
+    print(f"@不偏標準偏差: {std\_d:.2f}@")
+    print(f"@計算されたt値: {t\_statistic:.2f}@")
+    print(f"@p値: {p\_value:.4f}@")
+    
+    if p_value < alpha:
+        print("@結果: 統計的に有意です（P<0.05）（帰無仮説を棄却します）．@")
+    else:
+        print("@結果: 統計的に有意ではありません（帰無仮説を棄却できません）．@")
+\end{lstlisting}
+\end{figure}
+
+\end{document}
