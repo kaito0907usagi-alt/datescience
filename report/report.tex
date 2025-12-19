@@ -3,6 +3,7 @@
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{tabularx}
 \usepackage{booktabs}
+\usepackage{float}
 \usepackage[dvipdfmx]{xcolor}
 \usepackage{listings} 
 
@@ -35,72 +36,93 @@
 {回帰分析}
 
 \subsection*{例題}
-2024年発売のPlayStation5用フルプライスタイトルのMetacriticによる評価と，大手中古販売会社のオンラインショップ価格をまとめた．
-下記データについて回帰分析を行え．
+2024年発売のPlayStation5用フルプライスタイトル(8000円から10000円)のMetacriticによる評価と，大手中古販売会社のオンラインショップ価格を100分の1にし，四捨五入してまとめた．
+下記データについて中古販売価格と評価の回帰直線を求めよ．
 
 \vspace{1zh}
-\begin{table}[ht]\caption{運動前後での脈拍の測定結果}
+\begin{table}[H]\caption{運動前後での脈拍の測定結果}
 \centering
-\begin{tabular}{|c|c|c|}
-\hline
-       & 運動前 & 運動後 \\ \hline
-被験者A & 78 & 82 \\ \hline
-被験者B & 70 & 71 \\ \hline
-被験者C & 73 & 74 \\ \hline
-被験者D & 72 & 76 \\ \hline
-被験者E & 76 & 74 \\ \hline
-被験者F & 71 & 73 \\ \hline
-被験者G & 77 & 82 \\ \hline
-\end{tabular}
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+        \hline
+               & A & B & C & D & E & F & G & H \\ \hline
+        販売価格 & 18 & 39 & 34 & 43 & 44 & 46 & 48 & 15 \\ \hline
+        Metaスコア & 82 & 87 & 94 & 92 & 86 & 94 & 81 & 79 \\ \hline
+    \end{tabular}
 \end{table}
 
 \subsection*{解答}
-(記載例)
-帰無仮説 $H_0$ は「運動前後の脈拍は等しい」である．
-まず，運動前後の脈拍の差 $d$ を計算する（ここでは運動後から運動前を引く）．
-差 $d$ の標本平均は $\bar{d} = 2.14$，標本標準偏差は $s_d=2.41\cdots$，標本サイズは $n=7$ である．
-標本標準偏差 $s_d$ の自由度は $df=n-1=6$ である．そこで，統計検定量の Student の $t$ は
-$$
-t = \frac{\bar{d}}{s_d / \sqrt{n}} = \frac{2.14}{2.41\cdots/ \sqrt{7}} = 2.35\cdots
-$$
-となる．$t$ 分布表の $df=6$ と $\alpha=0.05$ から，臨界値 $t_{0.025}(6)=2.447$ を得る．そこで，以下の不等式が成立する．
-$$
-2.35\cdots = |t| < t_{0.025}(6) = 2.447
-$$
-この結果，検定統計量 $t$ は棄却域に入らないことがわかる．
-そこで，「運動前後の脈拍の間に統計的に有意な差は認められなかった」と結論する．
+説明変数$x$を中古販売価格，目的変数$y$をMetaスコアとして単回帰分析を行う．
+回帰分析は，最小二乗法から求められる標本回帰直線を利用する．この直線は，式\ref{regression_1}のように表される．
+\begin{equation}
+    \hat{y} = \hat{\beta_0} + \hat{\beta_1} x
+    \label{regression_1}
+\end{equation}
 
-\begin{figure}[h]
+まずは，各変数の平均値を求める．$x$の平均値$\bar{x}$は式\ref{x_ave}のように求められる．
+また，$y$の平均値$\bar{y}$は式\ref{y_ave}のように求められる．
+\begin{equation}
+    \bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i=\frac{287}{8}=35.875
+    \label{x_ave}
+\end{equation}
+
+\begin{equation}
+    \bar{y} = \frac{1}{n} \sum_{i=1}^{n} y_i=\frac{695}{8}=86.875
+    \label{y_ave}
+\end{equation}
+
+次に，回帰係数$\hat{\beta_1}$を式\ref{beta_1}のように求める．
+\begin{equation}
+    \hat{\beta_1} = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n} (x_i - \bar{x})^2} = \frac{268.8750}{1134.8750}=0.2369
+    \label{beta_1}
+\end{equation}
+
+最後に，切片$\hat{\beta_0}$を式\ref{beta_0}のように求める．
+\begin{equation}
+    \hat{\beta_0} = \bar{y} - \hat{\beta_1} \bar{x} = 86.875 - 0.2369 \times 35.875 = 78.4064
+    \label{beta_0}
+\end{equation}
+
+よって，求める標本回帰直線は式\ref{regression_2}のようになる．
+\begin{equation}
+    \hat{y} = 78.4064 + 0.2369 x
+    \label{regression_2}
+\end{equation}
+
+式\ref{regression_2}から，中古販売価格が高いほどMetaスコアも高くなる傾向があるといえる．
+
+\begin{figure}[H]
 \centering
 \begin{lstlisting}[caption=プログラム例, label=src, language=Python]
-    before = np.array([78, 70, 73, 72, 76, 71, 77])  # 運動前
-    after  = np.array([82, 71, 74, 76, 74, 73, 82])  # 運動後
-    
-    # 差を計算
-    d = after - before
-    mean_d = np.mean(d)          # 平均差
-    std_d = np.std(d, ddof=1)    # 不偏標準偏差
-    n = len(d)                   # サンプルサイズ
-    
-    # @t検定の計算@
-    t_statistic = mean_d / (std_d / np.sqrt(n))  # @t値@
-    
-    # @p値の計算（両側検定）@
-    p_value = 2 * (1 - stats.t.cdf(abs(t_statistic), df=n-1))
-    
-    # 有意水準
-    alpha = 0.05
-    
-    # 結果の表示
-    print(f"@平均差: {mean\_d:.2f}@")
-    print(f"@不偏標準偏差: {std\_d:.2f}@")
-    print(f"@計算されたt値: {t\_statistic:.2f}@")
-    print(f"@p値: {p\_value:.4f}@")
-    
-    if p_value < alpha:
-        print("@結果: 統計的に有意です（P<0.05）（帰無仮説を棄却します）．@")
-    else:
-        print("@結果: 統計的に有意ではありません（帰無仮説を棄却できません）．@")
+# 1. データの準備
+    x = np.array([18, 39, 34, 43, 44, 46, 48, 15]) # 価格
+    y = np.array([82, 87, 94, 92, 86, 94, 81, 79]) # 評価
+    titles = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+
+# 2. 基本統計量の計算
+    n = len(x)
+    x_mean = np.mean(x)
+    y_mean = np.mean(y)
+
+# 3. 偏差、偏差の二乗、偏差の積の計算（途中経過用）
+    x_diff = x - x_mean              # xの偏差 (x - x_bar)
+    y_diff = y - y_mean              # yの偏差 (y - y_bar)
+    x_diff_sq = x_diff**2            # xの偏差平方 (x - x_bar)^2
+    xy_diff = x_diff * y_diff        # 偏差の積 (x - x_bar)(y - y_bar)
+
+# 4. 合計値の計算
+    sum_x_diff_sq = np.sum(x_diff_sq) # xの偏差平方和 (分母)
+    sum_xy_diff = np.sum(xy_diff)     # 偏差共分散 (分子)
+
+# 5. 回帰係数の算出
+    beta_1_hat = sum_xy_diff / sum_x_diff_sq
+    beta_0_hat = y_mean - (beta_1_hat * x_mean)
+    y_hat = beta_1_hat * x + beta_0_hat
+# 6. 結果の表示
+    print(f"価格の平均 (x_mean): {x_mean:.4f}")
+    print(f"評価の平均 (y_mean): {y_mean:.4f}")
+    print(f"傾き (beta_1_hat): {beta_1_hat:.4f}")
+    print(f"切片 (beta_0_hat): {beta_0_hat:.4f}")
+    print(f"最終的な回帰式: y_hat = {beta_0_hat:.4f} + {beta_1_hat:.4f} * x")
 \end{lstlisting}
 \end{figure}
 
