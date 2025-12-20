@@ -93,36 +93,38 @@
 \begin{figure}[H]
 \centering
 \begin{lstlisting}[caption=プログラム例, label=src, language=Python]
+import numpy as np
+
 # 1. データの準備
-    x = np.array([18, 39, 34, 43, 44, 46, 48, 15]) # 価格
-    y = np.array([82, 87, 94, 92, 86, 94, 81, 79]) # 評価
-    titles = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+x = np.array([18, 39, 34, 43, 44, 46, 48, 15]) # 価格
+y = np.array([82, 87, 94, 92, 86, 94, 81, 79]) # 評価
 
 # 2. 基本統計量の計算
-    n = len(x)
-    x_mean = np.mean(x)
-    y_mean = np.mean(y)
+n = len(x)
+x_mean = np.mean(x)
+y_mean = np.mean(y)
 
-# 3. 偏差、偏差の二乗、偏差の積の計算（途中経過用）
-    x_diff = x - x_mean              # xの偏差 (x - x_bar)
-    y_diff = y - y_mean              # yの偏差 (y - y_bar)
-    x_diff_sq = x_diff**2            # xの偏差平方 (x - x_bar)^2
-    xy_diff = x_diff * y_diff        # 偏差の積 (x - x_bar)(y - y_bar)
+# 3. 偏差、偏差の二乗、偏差の積の計算
+x_diff = x - x_mean              # ｘの偏差 
+y_diff = y - y_mean              # ｙの偏差
+x_diff_sq = x_diff **2           # ｘの偏差平方
+xy_diff = x_diff * y_diff        # 偏差の積
 
 # 4. 合計値の計算
-    sum_x_diff_sq = np.sum(x_diff_sq) # xの偏差平方和 (分母)
-    sum_xy_diff = np.sum(xy_diff)     # 偏差共分散 (分子)
+sum_x_diff_sq = np.sum(x_diff_sq) # ｘの偏差平方和 
+sum_xy_diff = np.sum(xy_diff)     # 偏差共分散
 
 # 5. 回帰係数の算出
-    beta_1_hat = sum_xy_diff / sum_x_diff_sq
-    beta_0_hat = y_mean - (beta_1_hat * x_mean)
-    y_hat = beta_1_hat * x + beta_0_hat
+beta_1_hat = sum_xy_diff / sum_x_diff_sq
+beta_0_hat = y_mean - (beta_1_hat * x_mean)
+y_hat = beta_1_hat * x + beta_0_hat
+
 # 6. 結果の表示
-    print(f"価格の平均 (x_mean): {x_mean:.4f}")
-    print(f"評価の平均 (y_mean): {y_mean:.4f}")
-    print(f"傾き (beta_1_hat): {beta_1_hat:.4f}")
-    print(f"切片 (beta_0_hat): {beta_0_hat:.4f}")
-    print(f"最終的な回帰式: y_hat = {beta_0_hat:.4f} + {beta_1_hat:.4f} * x")
+print(f"価格の平均 (x_mean): {x_mean:.4f}")
+print(f"評価の平均 (y_mean): {y_mean:.4f}")
+print(f"傾き (beta_1_hat): {beta_1_hat:.4f}")
+print(f"切片 (beta_0_hat): {beta_0_hat:.4f}")
+print(f"最終的な回帰式: y_hat = {beta_0_hat:.4f} + {beta_1_hat:.4f} * x")
 \end{lstlisting}
 \end{figure}
 
