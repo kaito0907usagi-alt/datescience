@@ -37,10 +37,10 @@
 
 \subsection*{例題}
 2024年発売のPlayStation5用フルプライスタイトル(8000円から10000円)のMetacriticによる評価と，大手中古販売会社のオンラインショップ価格を100分の1にし，四捨五入してまとめた．
-下記データについて中古販売価格と評価の回帰直線を求めよ．
+下記データについて中古販売価格と評価の回帰直線を求めよ．ただし，説明変数$x$を中古販売価格，目的変数$y$をMetaスコアとしなさい．
 
 \vspace{1zh}
-\begin{table}[H]\caption{運動前後での脈拍の測定結果}
+\begin{table}[H]\caption{中古価格と評価データ}
 \centering
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
         \hline
@@ -51,7 +51,6 @@
 \end{table}
 
 \subsection*{解答}
-説明変数$x$を中古販売価格，目的変数$y$をMetaスコアとして単回帰分析を行う．
 回帰分析は，最小二乗法から求められる標本回帰直線を利用する．この直線は，式\ref{regression_1}のように表される．
 \begin{equation}
     \hat{y} = \hat{\beta_0} + \hat{\beta_1} x
